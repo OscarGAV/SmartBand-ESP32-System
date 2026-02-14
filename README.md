@@ -176,4 +176,4 @@ El backend clasifica automáticamente la frecuencia cardíaca:
 
 Este dispositivo IoT se conecta al Smart Band Edge API Platform:
 - Repositorio: https://github.com/OscarGAV/SmartBand-Edge-Api-Platform
-- Documentación Edge API: https://smart-band-edge-api-platform-grupo-uno.azurewebsites.net/docs
+- Documentación Edge API: https://smart-band-edge-api-platform.azurewebsites.net/docs
