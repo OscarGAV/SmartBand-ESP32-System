@@ -10,7 +10,7 @@
 #define API_KEY "EOVRV2RJBUZBX6TU"
 
 // Edge Service URL - Azure Production
-#define EDGE_BACKEND_URL "https://smart-band-edge-api-platform-grupo-uno.azurewebsites.net/api/v1/health-monitoring/data-records"
+#define EDGE_BACKEND_URL "https://smart-band-edge-api-platform.azurewebsites.net/api/v1/health-monitoring/data-records"
 
 // Pin definitions
 #define PULSE_PIN 35
