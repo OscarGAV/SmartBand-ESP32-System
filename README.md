@@ -139,10 +139,10 @@ LED STATUS: OFF - Heart rate normal
 
 El backend clasifica automáticamente la frecuencia cardíaca:
 
-- LOW: menor a 60 bpm
-- NORMAL: 60-100 bpm
-- HIGH: 101-120 bpm
-- CRITICAL: mayor a 120 bpm
+- CRITICAL: menor a 40 bpm - `Status adicional impuesto por el backend `
+- LOW: menor a 60 bpm - `MIN_HEART_RATE ubicado en config.h`
+- NORMAL: 60-140 bpm 
+- HIGH: mayor a 140 bpm - `MAX_HEART_RATE ubicado en config.h`
 
 ## Simulación en Wokwi
 
@@ -158,19 +158,6 @@ El backend clasifica automáticamente la frecuencia cardíaca:
 - Slider "Heart Rate": Ajusta el valor del pulso cardíaco simulado
 - Observar el LED rojo: Se enciende cuando los valores están fuera del rango normal
 - Serial Monitor: Muestra todos los logs de operación
-
-## Arquitectura de Integración
-
-```
-[ESP32 Smart Band]
-       |
-       | WiFi
-       v
-[Azure App Service - Edge API]
-       |
-       v
-[PostgreSQL Database - Supabase]
-```
 
 ## Proyecto Relacionado
 
